@@ -37,4 +37,5 @@ class Squash(Melon):
 
         # Inherits the prep method from the parent class
         super().prep()
+        # Adds an additional class-specific method
         robots.painterbot.paint(self)
